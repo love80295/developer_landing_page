@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+.section-top{
+    background-image: url(developer.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-text{
+    color: white;
+    max-width: 900px;
+    padding-top: 44px;
+    margin-left: 350px;
+    
+}
+.lg-text{
+    font-size: 52px;
+}
+.section-two{
+    height: 25vh;
+    background-color: black;
+}
+.content-two{
+    color: white;
+    margin-left: 300px;
+    letter-spacing: 1.2px;
+    padding-top: 25px;
+    margin-right: 100px;
+}
+.lg-two{
+    font-size: 80px;
+}
+.lg-one{
+    font-size: 50px;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.card{
+    max-width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(1, 1, 1, 1.4);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card-content{
+    padding: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.contect{
+    background-color: rgb(37, 85, 37);
+    margin-left: 20p;
+}
+.about{
+    background-color: maroon;
+    color: white;
+    padding: 40px;
+}
+.contect {
+    color: white;
+    padding: 60px;
+}
+.me h1{
+    font-size: 60px;
+    letter-spacing: 1px;
+
+}
+.contect-content{
+    margin-top: 20px;
+}
+.about h1{
+    font-size: 60px;
+}
+.about-content{
+    margin-top: 20px;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 13vh;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+  
+
+
